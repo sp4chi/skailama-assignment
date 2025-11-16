@@ -22,8 +22,5 @@
       "src": "/(.*)",
       "dest": "client/dist/$1"
     }
-  ],
-  "env": {
-    "MONGODB_URI": "@mongodb_uri"
-  }
+  ]
 }
