@@ -2,6 +2,7 @@
   "name": "skailama",
   "version": "1.0.0",
   "description": "MERN Stack App deployed on Vercel",
+  "type": "module",
   "scripts": {
     "client": "npm run dev --prefix client",
     "server": "npm run dev --prefix server",
