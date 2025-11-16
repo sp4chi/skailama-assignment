@@ -1,0 +1,21 @@
+{
+  "name": "skailama",
+  "version": "1.0.0",
+  "description": "MERN Stack App deployed on Vercel",
+  "scripts": {
+    "client": "npm run dev --prefix client",
+    "server": "npm run dev --prefix server",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-client": "npm install --prefix client",
+    "install-server": "npm install --prefix server",
+    "install-all": "npm run install-server && npm run install-client",
+    "build": "npm run build --prefix client",
+    "vercel-build": "npm run install-all && npm run build"
+  },
+  "keywords": ["mern", "mongodb", "vercel", "express", "react"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
