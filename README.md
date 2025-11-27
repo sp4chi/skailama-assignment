@@ -1,4 +1,4 @@
-# Event Management System
+# Event Management System `https://skailama-assignment-app.vercel.app/`
 
 A full-stack Event Management System with multi-timezone support, built with the MERN stack (MongoDB, Express, React, Node.js).
 
